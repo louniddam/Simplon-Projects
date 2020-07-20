@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylle.css">
+    <title>Exo groupe Ramata</title>
+</head>
+<body>
+
+    <div id="header">
+        <ul id="listeNoms">
+            <li><%= student %></li>
+        </ul>
+    </div>
+
+
+    <p class="boldText"><%= myobjet %></p>
+
+    <form action="/" method="post">
+        <input type="text" id="nameInput" name="student" placeholder="Name" class="form-control"><br>
+        <button type="submit" class="btn btn-outline-success" id="addBtn">Add</button><br>
+    </form>
+
+    <div id="content2">
+        <ul id="finalList">
+           
+        </ul>
+    </div>
+
+    <div id="contentForScdList">
+        <p class="boldText">Veille Name</p>
+        <input type="text" id="subjectInput" placeholder="Subject" name="veille" class="form-control"> <br>
+        <button type="submit" class="btn btn-outline-success" id="assignBtn">Assign</button>
+    </div>
+    <br><br>
+    <div id="footer">
+        <button type="submit" class="btn btn-outline-danger clear" id="refreshBtn">Refresh the list</button>
+    </div>
+
+
+    
+<script src="app.js"></script>
+</body>
+</html>

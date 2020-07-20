@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 6px;
+}
+.form-control{
+    border: solid 2px #84BFE9;
+    margin-left: 10px;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+.barre {
+    text-decoration-line: line-through;
+}
+.nonBarre{
+    text-decoration-line: none;
+}
+
+.styleList {
+    list-style: none;
+}
